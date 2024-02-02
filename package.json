@@ -1,0 +1,44 @@
+{
+  "name": "blogs-app",
+  "version": "1.0.0",
+  "description": "Blogs application in Angular 14 with CRUD capabilities.",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~14.2.0",
+    "@angular/common": "~14.2.0",
+    "@angular/compiler": "~14.2.0",
+    "@angular/core": "~14.2.0",
+    "@angular/forms": "~14.2.0",
+    "@angular/platform-browser": "~14.2.0",
+    "@angular/platform-browser-dynamic": "~14.2.0",
+    "@angular/router": "~14.2.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "~14.2.0",
+    "@types/jasmine": "^3.6.9",
+    "@types/node": "^15.0.0",
+    "codelyzer": "^6.0.1",
+    "prettier": "^2.4.1",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "typescript": "~4.5.2"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "tslint . --project tsconfig.json && tslint . --project tsconfig.json"
+  },
+  "keywords": ["angular14", "blogs-app", "crud"],
+  "main": "./src/main.ts",
+  "directories": {
+    "e2e": "e2e",
+    "lib": "lib",
+    "test": "test"
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypecheck": true,
+    "strictInjectionParameters": false
+  }
+}
